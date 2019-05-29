@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -5,9 +6,42 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #faf9f8;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.App {
+  
+}
+.outer-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 100px;
+  background: #fff;
+  padding: 28px;
+  border-radius: 2px;
+  background-clip: padding-box;
+  -webkit-box-shadow: 0 1.6px 3.6px 0 rgba(0,0,0,0.132), 0 0.3px 0.9px 0 rgba(0,0,0,0.108);
+  box-shadow: 0 1.6px 3.6px 0 rgba(0,0,0,0.132), 0 0.3px 0.9px 0 rgba(0,0,0,0.108);
+  position: relative;
+}
+
+.button-wrapper {
+  display: flex;
+  margin-top: 28px;
+}
+
+.button-wrapper button:last-child {
+  margin-left: 20px;
+}
+
+.avatar-wrapper img {
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto;
+  margin-top: 50px;
 }
